@@ -18,9 +18,9 @@ if (
   beautifyInputsWithDot("a", "b", "c", "d") === "a.b.c.d" &&
   beautifyInputsWithUnderscore("a", "b", "c", "d") === "a_b_c_d"
 ) {
-  app !== null ? (app.innerHTML = "This developer can curry level 1!") : null;
+  app.innerHTML = "This developer can curry level 1!";
 } else {
-  app !== null ? (app.innerHTML = "Some issue!") : null;
+  app.innerHTML = "Some issue!";
 }
 
 console.log(beautifyInputsWithSpace("a", "b", "c", "d"));
