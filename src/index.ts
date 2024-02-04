@@ -22,3 +22,9 @@ if (
 } else {
   app !== null ? (app.innerHTML = "Some issue!") : null;
 }
+
+console.log(beautifyInputsWithSpace("a", "b", "c", "d"));
+console.log(beautifyInputsWithComma("a", "b", "c", "d"));
+console.log(beautifyInputsWithDash("a", "b", "c", "d"));
+console.log(beautifyInputsWithDot("a", "b", "c", "d"));
+console.log(beautifyInputsWithUnderscore("a", "b", "c", "d"));
